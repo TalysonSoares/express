@@ -1,5 +1,5 @@
-const express = require('express')
-const route = express.route()
+const express = require('express');
+const route = express.Router();
 
 route.get('/produto', (req, res) => {
     res.send('Listar produto')
