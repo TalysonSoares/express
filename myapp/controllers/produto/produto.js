@@ -25,7 +25,7 @@ function atualizar() {
     return "Atualizar produto"
 }
 
-function deletar() {
+function deletar(produto_id) {
     return "Deletar produto"
 }
 
