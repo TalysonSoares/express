@@ -16,8 +16,9 @@ function listar() {
     return JSON.stringify(produtos);
 }
 
-function criar() {
-    return "Criar produto"
+function criar(produto) {
+    produtos.push(produto)
+    return JSON.stringify(produtos)
 }
 
 function atualizar() {

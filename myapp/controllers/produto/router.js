@@ -8,7 +8,7 @@ route.get('/produto', (req, res) => {
 })
 
 route.post('/produto', (req, res) => {
-    res.send(produto.criar())
+    res.send(produto.criar(req.body))
 })
 
 route.put('/produto/:id', (req, res) => {

@@ -8,6 +8,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.use(express.json())
+
 app.use('/', produtoRota)
 
 app.use((req,res) => {
